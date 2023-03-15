@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+.Nav{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(Images/bg5.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 12%;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: rgb(184, 10, 10);
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.details h1{
+    font-family: serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.details h2{
+    font-family: serif;
+    font-size: 23px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.details p{
+    font-size: 20px;
+    font-family: serif;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.details span{
+    color: rgb(184, 10, 10);
+}
+
+.icons a{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px 20px;
+    
+}
+
+.icons a:hover{
+    opacity: 50%;
+}
+
+#ako{
+    width: 60%;
+    height: 110%;
+}
+
+.Images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+
+.Images img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    right: 50%;
+    transition: left 1s;
+}
+
+.Images .bg{
+    visibility: hidden;
+}
+
+.Images:hover .bg{
+    visibility: visible;
+}
+
+.Images:hover .me{
+    left: 45%;
+}
+
