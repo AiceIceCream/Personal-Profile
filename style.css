@@ -107,18 +107,16 @@ nav ul li a:hover{
     bottom: 0;
     transform: translateX(-50%);
     right: 50%;
-    transition: left 1s;
 }
 
 .Images .bg{
-    visibility: hidden;
+    opacity: 0%;
+    width: 0%;
 }
 
 .Images:hover .bg{
-    visibility: visible;
+    height: 100%;
+    width: 70%;
+    transition: 1.5s;
+    opacity: 100%;
 }
-
-.Images:hover .me{
-    left: 45%;
-}
-
